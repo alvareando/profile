@@ -1,0 +1,169 @@
+/*COLORS*/
+body {
+    background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 200%;
+    background-image: url(http://kitt.lewagon.com/placeholder/cities/berlin);
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #7d7d7d;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #254E70;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+/*CLASSES AND IDS*/
+.container {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn_blue {
+  background-color: #254E70;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn_blue:hover {
+  background-color: #50A6C2;
+  }
+
+.image_sizer{
+  width: 350px;
+}
+
+#img_profile {
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid #cccccc;
+    border-radius: 50%;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.list_inline{
+  list-style: none;
+  padding-left: 0
+}
+
+.list_inline li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.list_inline li .fa{
+  color: #7d7d7d;
+}
+
+#movies img {
+    width: 140px;
+    height: 190px;
+    object-fit: cover;
+}
+
+#facebook:hover{
+  color: #3B5998;
+}
+
+#linkedin:hover{
+  color: #007bb6;
+}
+
+#github:hover{
+  color: #c9510c;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+.title_underline {
+  text-decoration: underline;
+  text-decoration-color: #254E70;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.transparency_darker:hover {
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.transparency_darker a {
+  color: #7d7d7d;
+}
+
+
